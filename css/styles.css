@@ -217,7 +217,42 @@ img {
     background-color: #f4f4fd;
 }
 
-/* Shared style for section titles */
+/*svg 4 images*/
+
+.container-icon {
+    align-items: center;
+    display: flex; 
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border: 1px solid #8e8f99;
+    border-radius: 4px; 
+    margin-bottom: 8px; 
+    padding: 24px 100px;
+}
+
+.social-links-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.social-link {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-links-svg {
+    fill: #f4f4fd;
+}
+
+    /* Shared style for section titles */
 .title-about,
 .title-ourteam,
 .title-portfolio {
@@ -253,12 +288,14 @@ img {
 }
 
 /* Style for job titles under team member names */
+
 .ourteam-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    margin-bottom: 8px;
 }
 
 /* Space below the team section title */
@@ -330,6 +367,32 @@ img {
     padding: 100px 0;
 }
 
+.container-page-footer {
+    display: flex;
+    align-items: baseline;
+    max-width: 1158px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.container-footer{
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 120px;
+    padding: 0;
+
+}
+.container-footer-media {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
 /* Footer logo positioning */
 .footer-logo {
     display: inline-block;
@@ -343,4 +406,27 @@ img {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
+}
+
+.text-footer-media {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+.social-link:hover, .social-link:focus {
+    background-color: #404bbf;
+}
+
+.social-link-footer:hover, .social-link-footer:focus { 
+    background-color: #31d0aa;
+}
+
+.social-links-list-footer {
+    gap: 16px;
+    display: flex;
 }
