@@ -96,23 +96,6 @@ img {
     gap: 40px;
     }
 
-.nav-link-psevdo{
-    position: relative;
-    color: #404bbf;
-}
-
-.nav-link-psevdo::after {
-    content: "";
-    display: block;
-    border-radius: 2px;
-    width: 100%;
-    position: absolute;
-    height: 4px;
-    background-color: #404bbf;
-    left: 0;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    bottom: -1px;
-}
 
 /* Style for navigation links */
 .nav-link {
@@ -130,6 +113,24 @@ img {
 .nav-link:hover,
 .nav-link:focus {
     color: #404bbf;
+}
+
+.nav-link-psevdo {
+    position: relative;
+    color: #404bbf;
+}
+
+.nav-link-psevdo::after {
+    content: "";
+    display: block;
+    border-radius: 2px;
+    width: 100%;
+    position: absolute;
+    height: 4px;
+    background-color: #404bbf;
+    left: 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    bottom: -1px;
 }
 
 /* Align contact block to the right */
